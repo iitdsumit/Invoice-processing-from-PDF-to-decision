@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f4f0"><title>Ledgerline — Invoice decision desk</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <a class="brand" href="#"><span class="brand-mark"><i></i><i></i><i></i></span><span>ledgerline<span class="brand-dot">.</span></span></a>
+      <div class="workspace"><span class="workspace-icon">N</span><span><b>Northstar, Inc.</b><small>Accounts payable</small></span><span class="chevron">⌄</span></div>
+      <div class="nav-label">WORKSPACE</div>
+      <a class="nav-item active" href="#"><span class="nav-icon">▤</span>Invoice desk<span class="nav-count">01</span></a>
+      <a class="nav-item" href="#purchase-orders"><span class="nav-icon">⌑</span>Purchase orders</a>
+      <a class="nav-item" href="#activity"><span class="nav-icon">◷</span>Activity</a>
+      <div class="sidebar-bottom"><div class="security-card"><span class="secure-icon">✳</span><b>Decisions with a paper trail.</b><p>Every check is visible, explainable, and reviewable.</p><span class="security-link">How controls work <span>↗</span></span></div><div class="profile"><div class="avatar">SK</div><span><b>Sumit Kumar</b><small>AP reviewer</small></span><span class="profile-menu">•••</span></div></div>
+    </aside>
+    <main class="main">
+      <header class="topbar"><div class="breadcrumb">Accounts payable <span>/</span> <b>Invoice desk</b></div><div class="top-actions"><span class="live-status"><i></i> Demo environment</span><button class="help-button" title="Help">?</button></div></header>
+      <section class="page-heading"><div><div class="eyebrow">MONDAY, NOVEMBER 17, 2026 <span class="eyebrow-line"></span> AP WORKSPACE</div><h1>Invoice desk</h1><p>From invoice to decision, with every check in plain sight.</p></div><button class="text-button" id="resetBtn"><span>↺</span> Start over</button></section>
+      <div class="content-grid">
+        <section class="left-column">
+          <section class="card intake-card">
+            <div class="card-heading"><div><span class="step">01</span><div class="heading-copy"><h2>Bring in an invoice</h2><p>Upload a PDF or paste invoice text to get started.</p></div></div><span class="format-pill">PDF · up to 15 MB</span></div>
+            <label class="dropzone" id="dropzone"><input id="fileInput" type="file" accept="application/pdf,.pdf" hidden><span class="upload-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V4m0 0L7.5 8.5M12 4l4.5 4.5M5 15.5v3A1.5 1.5 0 0 0 6.5 20h11a1.5 1.5 0 0 0 1.5-1.5v-3"/></svg></span><b id="dropTitle">Drop your invoice here</b><span id="dropCaption">or <em>browse files</em> from your computer</span><span class="file-note">PDF only · maximum 15 MB</span><span class="file-selected" id="fileSelected"></span></label>
+            <div class="or-divider"><span></span>OR PASTE TEXT<span></span></div>
+            <textarea id="invoiceText" class="invoice-text" placeholder="Paste invoice text here…&#10;&#10;Example: Vendor name, invoice number, date, PO reference, subtotal, tax and total."></textarea>
+            <div class="intake-footer"><span class="privacy-note"><span>⌑</span> File stays in this session</span><button class="primary-button" id="analyzeBtn">Run invoice checks <span>→</span></button></div>
+            <div class="error-message" id="errorMessage" role="alert"></div>
+          </section>
+          <section class="card demo-card"><div class="demo-head"><div><span class="spark">✳</span><b>Explore with a sample</b></div><span>5 CASES</span></div><p>Each one tests a different control in the decision flow.</p><div class="demo-list" id="demoList"></div></section>
+          <section class="card po-card" id="purchase-orders"><div class="section-head"><div><span class="step">02</span><div class="heading-copy"><h2>Procurement ledger</h2><p>Approved purchase orders and remaining balances.</p></div></div><span class="source-pill"><i></i> SOURCE DATA</span></div><div class="table-wrap"><table><thead><tr><th>PO &amp; VENDOR</th><th>APPROVED</th><th>OPEN BALANCE</th></tr></thead><tbody id="poRows"></tbody></table></div></section>
+        </section>
+        <aside class="right-column">
+          <section class="card decision-card" id="resultPanel"><div class="result-placeholder"><div class="placeholder-art"><div class="art-paper"><span></span><span></span><span></span><i>?</i></div><div class="art-rays">✳</div></div><div class="placeholder-eyebrow">THE DECISION, EXPLAINED</div><h2>Ready when you are.</h2><p>Run an invoice through the checks to see a decision and its full reasoning.</p><div class="placeholder-chips"><span>Field extraction</span><span>PO match</span><span>Risk checks</span></div></div></section>
+          <section class="card flow-card"><div class="flow-heading"><span class="flow-mark">⌁</span><span><b>Decision flow</b><small>Every invoice follows the same controls.</small></span></div><div class="flow-steps"><div><span class="flow-num">01</span><span><b>Extract</b><small>Read invoice fields</small></span><i>✓</i></div><div><span class="flow-num">02</span><span><b>Validate</b><small>Check required data &amp; totals</small></span><i>✓</i></div><div><span class="flow-num">03</span><span><b>Match</b><small>Find the purchase order</small></span><i>✓</i></div><div><span class="flow-num">04</span><span><b>Decide</b><small>Apply tolerance &amp; duplicate rules</small></span><i>✓</i></div></div></section>
+          <section class="note-card"><span>✳</span><p><b>Humans stay in the loop.</b> Missing data, unclear matches, and exceptions route to AP review. No silent approvals.</p></section>
+        </aside>
+      </div>
+      <footer id="activity"><span>LEDGERLINE <i>·</i> INVOICE DECISION DESK</span><span>DEMO DATA <i>·</i> SESSION ONLY</span></footer>
+    </main>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>
