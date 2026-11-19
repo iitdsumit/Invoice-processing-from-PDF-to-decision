@@ -20,7 +20,7 @@
     </aside>
     <main class="main">
       <header class="topbar"><div class="breadcrumb">Accounts payable <span>/</span> <b>Invoice desk</b></div><div class="top-actions"><span class="live-status"><i></i> Demo environment</span><button class="help-button" title="Help">?</button></div></header>
-      <section class="page-heading"><div><div class="eyebrow">MONDAY, NOVEMBER 17, 2026 <span class="eyebrow-line"></span> AP WORKSPACE</div><h1>Invoice desk</h1><p>From invoice to decision, with every check in plain sight.</p></div><button class="text-button" id="resetBtn"><span>↺</span> Start over</button></section>
+      <section class="page-heading"><div><div class="eyebrow">AP WORKSPACE <span class="eyebrow-line"></span> INVOICE REVIEW</div><h1>Invoice desk</h1><p>From invoice to decision, with every check in plain sight.</p></div><button class="text-button" id="resetBtn"><span>↺</span> Start over</button></section>
       <div class="content-grid">
         <section class="left-column">
           <section class="card intake-card">
@@ -31,8 +31,8 @@
             <div class="intake-footer"><span class="privacy-note"><span>⌑</span> File stays in this session</span><button class="primary-button" id="analyzeBtn">Run invoice checks <span>→</span></button></div>
             <div class="error-message" id="errorMessage" role="alert"></div>
           </section>
-          <section class="card demo-card"><div class="demo-head"><div><span class="spark">✳</span><b>Explore with a sample</b></div><span>5 CASES</span></div><p>Each one tests a different control in the decision flow.</p><div class="demo-list" id="demoList"></div></section>
-          <section class="card po-card" id="purchase-orders"><div class="section-head"><div><span class="step">02</span><div class="heading-copy"><h2>Procurement ledger</h2><p>Approved purchase orders and remaining balances.</p></div></div><span class="source-pill"><i></i> SOURCE DATA</span></div><div class="table-wrap"><table><thead><tr><th>PO &amp; VENDOR</th><th>APPROVED</th><th>OPEN BALANCE</th></tr></thead><tbody id="poRows"></tbody></table></div></section>
+          <section class="card demo-card"><div class="demo-head"><div><span class="spark">✳</span><b>Explore with a sample</b></div><span>6 CASES</span></div><p>Samples cover clean billing, partial billing, arithmetic errors, and repeat or excess charges.</p><div class="demo-list" id="demoList"></div></section>
+          <section class="card po-card" id="purchase-orders"><div class="section-head"><div><span class="step">03</span><div class="heading-copy"><h2>Procurement &amp; payment ledger</h2><p>Approved caps, historical billed and paid amounts, and remaining balances.</p></div></div><span class="source-pill"><i></i> SAMPLE DATA</span></div><div class="table-wrap"><table><thead><tr><th>PO &amp; VENDOR</th><th>APPROVED</th><th>BILLED</th><th>PAID</th><th>REMAINING</th></tr></thead><tbody id="poRows"></tbody></table></div></section>
         </section>
         <aside class="right-column">
           <section class="card decision-card" id="resultPanel"><div class="result-placeholder"><div class="placeholder-art"><div class="art-paper"><span></span><span></span><span></span><i>?</i></div><div class="art-rays">✳</div></div><div class="placeholder-eyebrow">THE DECISION, EXPLAINED</div><h2>Ready when you are.</h2><p>Run an invoice through the checks to see a decision and its full reasoning.</p><div class="placeholder-chips"><span>Field extraction</span><span>PO match</span><span>Risk checks</span></div></div></section>

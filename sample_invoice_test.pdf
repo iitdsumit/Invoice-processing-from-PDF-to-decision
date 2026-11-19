@@ -1,0 +1,210 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+5 0 obj
+<<
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
+>>
+endobj
+6 0 obj
+<<
+/Author (Northstar Office Supply - Test Document) /CreationDate (D:20261117191335+05'00') /Creator (anonymous) /Keywords () /ModDate (D:20261117191335+05'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (unspecified) /Title (Sample Vendor Invoice NS-2026-1102) /Trapped /False
+>>
+endobj
+7 0 obj
+<<
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
+>>
+endobj
+8 0 obj
+<<
+/Length 4405
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.192157 .364706 .235294 rg
+n 0 780 612 12 re f*
+.14902 .207843 .172549 rg
+BT /F2 17 Tf 20.4 TL ET
+BT 1 0 0 1 54 724 Tm (NORTHSTAR OFFICE SUPPLY) Tj T* ET
+.466667 .501961 .470588 rg
+BT /F1 8 Tf 9.6 TL ET
+BT 1 0 0 1 451.72 728 Tm (1140 Market Street, Suite 300) Tj T* ET
+BT 1 0 0 1 466.848 715 Tm (San Francisco, CA 94103) Tj T* ET
+BT 1 0 0 1 399.736 702 Tm (billing@northstar.example  |  \(415\) 555-0140) Tj T* ET
+.890196 .909804 .886275 RG
+n 54 683 m 558 683 l S
+.14902 .207843 .172549 rg
+BT /F2 24 Tf 28.8 TL ET
+BT 1 0 0 1 54 641 Tm (INVOICE) Tj T* ET
+.466667 .501961 .470588 rg
+BT /F1 8 Tf 9.6 TL ET
+BT 1 0 0 1 488.216 653 Tm (INVOICE NUMBER) Tj T* ET
+.14902 .207843 .172549 rg
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 486.467 636 Tm (NS-2026-1102) Tj T* ET
+.952941 .964706 .945098 rg
+n
+60 559 m
+552 559 l
+555.3168 559 558 561.6832 558 565 c
+558 606 l
+558 609.3168 555.3168 612 552 612 c
+60 612 l
+56.6832 612 54 609.3168 54 606 c
+54 565 l
+54 561.6832 56.6832 559 60 559 c
+h
+f*
+.466667 .501961 .470588 rg
+BT /F2 7 Tf 8.4 TL ET
+BT 1 0 0 1 68 591 Tm (INVOICE DATE) Tj T* ET
+.14902 .207843 .172549 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 68 573 Tm (2026-11-02) Tj T* ET
+.466667 .501961 .470588 rg
+BT /F2 7 Tf 8.4 TL ET
+BT 1 0 0 1 238 591 Tm (PURCHASE ORDER) Tj T* ET
+.14902 .207843 .172549 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 238 573 Tm (PO-4821) Tj T* ET
+.466667 .501961 .470588 rg
+BT /F2 7 Tf 8.4 TL ET
+BT 1 0 0 1 408 591 Tm (PAYMENT TERMS) Tj T* ET
+.14902 .207843 .172549 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 408 573 Tm (Net 30) Tj T* ET
+.466667 .501961 .470588 rg
+BT /F2 7 Tf 8.4 TL ET
+BT 1 0 0 1 54 530 Tm (BILL TO) Tj T* ET
+.14902 .207843 .172549 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 512 Tm (Northstar, Inc.) Tj T* ET
+.466667 .501961 .470588 rg
+BT /F1 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 497 Tm (Accounts Payable) Tj T* ET
+BT 1 0 0 1 54 483 Tm (San Francisco, CA) Tj T* ET
+.466667 .501961 .470588 rg
+BT /F2 7 Tf 8.4 TL ET
+BT 1 0 0 1 484.878 530 Tm (PLEASE REFERENCE) Tj T* ET
+.14902 .207843 .172549 rg
+BT /F1 9 Tf 10.8 TL ET
+BT 1 0 0 1 411.435 512 Tm (Invoice NS-2026-1102 on remittance) Tj T* ET
+.14902 .207843 .172549 rg
+n 54 451 504 24 re f*
+1 1 1 rg
+BT /F2 7 Tf 8.4 TL ET
+BT 1 0 0 1 64 460 Tm (DESCRIPTION) Tj T* ET
+BT 1 0 0 1 378.608 460 Tm (QTY) Tj T* ET
+BT 1 0 0 1 436.331 460 Tm (UNIT PRICE) Tj T* ET
+BT 1 0 0 1 517.284 460 Tm (AMOUNT) Tj T* ET
+.14902 .207843 .172549 rg
+BT /F1 9 Tf 10.8 TL ET
+BT 1 0 0 1 64 426 Tm (Copy paper - multipurpose, case) Tj T* ET
+.466667 .501961 .470588 rg
+BT 1 0 0 1 377.988 426 Tm (100) Tj T* ET
+BT 1 0 0 1 448.478 426 Tm ($42.00) Tj T* ET
+.14902 .207843 .172549 rg
+BT 1 0 0 1 507.968 426 Tm ($4,200.00) Tj T* ET
+.890196 .909804 .886275 RG
+n 54 414 m 558 414 l S
+.14902 .207843 .172549 rg
+BT /F1 9 Tf 10.8 TL ET
+BT 1 0 0 1 64 392 Tm (Writing supplies - assorted set) Tj T* ET
+.466667 .501961 .470588 rg
+BT 1 0 0 1 377.988 392 Tm (100) Tj T* ET
+BT 1 0 0 1 448.478 392 Tm ($28.00) Tj T* ET
+.14902 .207843 .172549 rg
+BT 1 0 0 1 507.968 392 Tm ($2,800.00) Tj T* ET
+.890196 .909804 .886275 RG
+n 54 380 m 558 380 l S
+.14902 .207843 .172549 rg
+BT /F1 9 Tf 10.8 TL ET
+BT 1 0 0 1 64 358 Tm (Office storage crates) Tj T* ET
+.466667 .501961 .470588 rg
+BT 1 0 0 1 377.988 358 Tm (100) Tj T* ET
+BT 1 0 0 1 448.478 358 Tm ($50.00) Tj T* ET
+.14902 .207843 .172549 rg
+BT 1 0 0 1 507.968 358 Tm ($5,000.00) Tj T* ET
+.890196 .909804 .886275 RG
+n 54 346 m 558 346 l S
+.466667 .501961 .470588 rg
+BT /F1 9 Tf 10.8 TL ET
+BT 1 0 0 1 408.979 300 Tm (Subtotal) Tj T* ET
+.14902 .207843 .172549 rg
+BT 1 0 0 1 502.964 300 Tm ($12,000.00) Tj T* ET
+.466667 .501961 .470588 rg
+BT 1 0 0 1 380.485 280 Tm (Sales Tax \(7%\)) Tj T* ET
+.14902 .207843 .172549 rg
+BT 1 0 0 1 515.474 280 Tm ($840.00) Tj T* ET
+.890196 .909804 .886275 RG
+n 337 267 m 558 267 l S
+.14902 .207843 .172549 rg
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 391.884 246 Tm (Total Due) Tj T* ET
+.192157 .364706 .235294 rg
+BT /F2 14 Tf 16.8 TL ET
+BT 1 0 0 1 444.498 244 Tm ($12,840.00 USD) Tj T* ET
+.890196 .909804 .886275 RG
+n 54 92 m 558 92 l S
+.192157 .364706 .235294 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 73 Tm (Thank you for your business.) Tj T* ET
+.466667 .501961 .470588 rg
+BT /F1 8 Tf 9.6 TL ET
+BT 1 0 0 1 449.072 73 Tm (Remit payment within 30 days.) Tj T* ET
+.635294 .666667 .631373 rg
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 197.339 42 Tm (SAMPLE INVOICE FOR SOFTWARE TESTING  |  NOT A REAL BILL) Tj T* ET
+ 
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000514 00000 n 
+0000000582 00000 n 
+0000000899 00000 n 
+0000000958 00000 n 
+trailer
+<<
+/ID 
+[<1e4c18f7e007db0e98d3b576fe16d9df><1e4c18f7e007db0e98d3b576fe16d9df>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
+>>
+startxref
+5414
+%%EOF
